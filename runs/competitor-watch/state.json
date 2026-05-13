@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "last_scan_utc": null,
+  "competitors": {
+    "claudit-sec": {"last_seen_guids": [], "etag": null, "modified": null},
+    "smithery-cli": {"last_seen_guids": [], "etag": null, "modified": null},
+    "apigene-gateway": {"last_seen_guids": [], "etag": null, "modified": null},
+    "mcp-marketplace-cline": {"last_seen_guids": [], "etag": null, "modified": null},
+    "awesome-mcp-servers": {"last_seen_guids": [], "etag": null, "modified": null}
+  },
+  "alerts_history": []
+}

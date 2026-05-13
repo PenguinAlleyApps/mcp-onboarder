@@ -1,0 +1,100 @@
+product: mcp-onboarder
+north_star: "Cross-platform pre-install CLI: parse MCP server URL into ready-to-paste client config + risk audit + tool inventory."
+
+competitors:
+  - name: claudit-sec
+    homepage: https://github.com/HarmonicSecurity/claudit-sec
+    github: https://github.com/HarmonicSecurity/claudit-sec
+    changelog_rss: https://github.com/HarmonicSecurity/claudit-sec/releases.atom
+    last_known_features:
+      - Post-install audit MCP servers / extensions / plugins / connectors / scheduled tasks / permissions
+      - Single-command visibility (macOS only)
+    known_gaps:
+      - macOS-only (no Linux / Windows)
+      - Post-install only (no pre-install path)
+      - No install command generator
+      - No risk score numeric (binary findings)
+    risk_if_close_gap: HIGH
+
+  - name: smithery-cli
+    homepage: https://smithery.ai
+    github: https://github.com/smithery-ai/cli
+    changelog_rss: https://github.com/smithery-ai/cli/releases.atom
+    last_known_features:
+      - Install MCP servers from Smithery hub
+      - Hosted runtime gateway option
+    known_gaps:
+      - Hub-only sources (no arbitrary GitHub / npm / pypi)
+      - No risk audit
+      - No cross-client config emit (Claude Code vs Desktop vs Cursor)
+      - Gateway model = vendor lock
+    risk_if_close_gap: MED
+
+  - name: apigene-gateway
+    homepage: https://apigene.ai
+    github: null
+    docs: https://apigene.ai/blog/mcp-marketplace
+    changelog_rss: null
+    last_known_features:
+      - One-click install via gateway proxy
+      - 8-point security scan their hub
+    known_gaps:
+      - Proxy through their infra (network dependency + vendor lock)
+      - No transparency on audit criteria
+      - Closed source
+      - SaaS pricing model
+    risk_if_close_gap: MED
+
+  - name: mcp-marketplace-cline
+    homepage: https://github.com/cline/mcp-marketplace
+    github: https://github.com/cline/mcp-marketplace
+    changelog_rss: https://github.com/cline/mcp-marketplace/releases.atom
+    last_known_features:
+      - Marketplace curated for Cline IDE
+    known_gaps:
+      - Cline-IDE only target
+      - No audit
+      - No general CLI tooling
+    risk_if_close_gap: LOW
+
+  - name: awesome-mcp-servers
+    homepage: https://github.com/punkpeye/awesome-mcp-servers
+    github: https://github.com/punkpeye/awesome-mcp-servers
+    changelog_rss: https://github.com/punkpeye/awesome-mcp-servers/commits.atom
+    last_known_features:
+      - Curated static list 86k stars
+    known_gaps:
+      - No tooling
+      - No audit
+      - No install ceremony
+    risk_if_close_gap: LOW
+
+detection:
+  gap_keywords:
+    - cross-platform
+    - cross platform
+    - windows support
+    - linux support
+    - pre-install audit
+    - risk score
+    - pre install
+    - audit cli
+    - install generator
+    - claude code config
+    - cursor config
+    - claude desktop config
+    - batch install
+    - multi-server
+    - merge mcp.json
+  alert_on_match: true
+  auto_pr_roadmap: true
+
+schedule:
+  weekly_scan: "Monday 6 AM CST"
+  monthly_deep_review: "First Monday of month"
+
+outputs:
+  state_file: runs/competitor-watch/state.json
+  report_path: runs/competitor-watch/report-YYYY-MM-DD.md
+  open_issues_on_alert: true
+  open_roadmap_pr_on_alert: true
