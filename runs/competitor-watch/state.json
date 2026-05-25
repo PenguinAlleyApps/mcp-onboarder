@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "last_scan_utc": "2026-05-18T14:57:43.869545+00:00",
+  "last_scan_utc": "2026-05-25T13:06:23.918933+00:00",
   "competitors": {
     "claudit-sec": {
       "last_seen_guids": [],
-      "etag": "W/\"1f47effcc36238a603c77b389153aa70\"",
+      "etag": "W/\"5e8559ebec06b541b0a38617a88c872f\"",
       "modified": null
     },
     "smithery-cli": {
@@ -18,9 +18,18 @@
         "tag:github.com,2008:Repository/906846835/v3.4.0",
         "tag:github.com,2008:Repository/906846835/v3.3.3",
         "tag:github.com,2008:Repository/906846835/v3.3.2",
-        "tag:github.com,2008:Repository/906846835/v3.3.1"
+        "tag:github.com,2008:Repository/906846835/v3.3.1",
+        "tag:github.com,2008:Repository/906846835/v1.1.1",
+        "tag:github.com,2008:Repository/906846835/v1.1.0",
+        "tag:github.com,2008:Repository/906846835/v1.0.13",
+        "tag:github.com,2008:Repository/906846835/v1.0.12",
+        "tag:github.com,2008:Repository/906846835/v1.0.11",
+        "tag:github.com,2008:Repository/906846835/v1.0.10",
+        "tag:github.com,2008:Repository/906846835/v1.0.9",
+        "tag:github.com,2008:Repository/906846835/v1.0.8",
+        "tag:github.com,2008:Repository/906846835/v1.0.7"
       ],
-      "etag": "W/\"9fbb6eeda566f12227827d9e166cde70\"",
+      "etag": "W/\"a30a3ef2c8c8d6f2d3b2f4779d9f22ed\"",
       "modified": null
     },
     "apigene-gateway": {
@@ -30,7 +39,7 @@
     },
     "mcp-marketplace-cline": {
       "last_seen_guids": [],
-      "etag": "W/\"0d7d2b5b49c61a4d7b399fd969d6219e\"",
+      "etag": "W/\"3b7d0f4070c5084d80bbf9eecc3163b4\"",
       "modified": null
     },
     "awesome-mcp-servers": {
