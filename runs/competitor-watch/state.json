@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "last_scan_utc": "2026-07-13T14:12:09.151607+00:00",
+  "last_scan_utc": "2026-07-20T13:51:07.736208+00:00",
   "competitors": {
     "claudit-sec": {
       "last_seen_guids": [],
-      "etag": "W/\"75de527fa11c9c8b6330413c30332238\"",
+      "etag": "W/\"4bba8d1aede5fcce36caac79dcce76e9\"",
       "modified": null
     },
     "smithery-cli": {
@@ -41,7 +41,7 @@
     },
     "mcp-marketplace-cline": {
       "last_seen_guids": [],
-      "etag": "W/\"686947d038e30e39610146251119737c\"",
+      "etag": "W/\"649f2d1d9662749cd050202ed9d13d90\"",
       "modified": null
     },
     "awesome-mcp-servers": {
