@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "last_scan_utc": "2026-07-27T14:13:53.212771+00:00",
+  "last_scan_utc": "2026-08-03T14:20:34.970457+00:00",
   "competitors": {
     "claudit-sec": {
       "last_seen_guids": [],
-      "etag": "W/\"8b07a741a6eeb9892978711560696abd\"",
+      "etag": "W/\"0c8c6646ef58d80589634e4f6bfccc43\"",
       "modified": null
     },
     "smithery-cli": {
@@ -31,7 +31,7 @@
         "tag:github.com,2008:Repository/906846835/v1.2.0",
         "tag:github.com,2008:Repository/906846835/v1.1.2"
       ],
-      "etag": "W/\"865d6cf8fbf981e849e043ce5ca27619\"",
+      "etag": "W/\"76880dc66d44e4640c05f497d8d53376\"",
       "modified": null
     },
     "apigene-gateway": {
@@ -41,7 +41,7 @@
     },
     "mcp-marketplace-cline": {
       "last_seen_guids": [],
-      "etag": "W/\"23f66f82e42d0018f7b994baceb1902a\"",
+      "etag": "W/\"9b95d922a269c114715fc686cd807bfe\"",
       "modified": null
     },
     "awesome-mcp-servers": {
@@ -225,11 +225,47 @@
         "tag:github.com,2008:Grit::Commit/cdfc7d06c4bb1167ee1d8f83bdb5f5ed5d28ecab",
         "tag:github.com,2008:Grit::Commit/8b3602b647f52a795d1888c1d6ba22e871c0c07d",
         "tag:github.com,2008:Grit::Commit/ed02d06a415d32d0922404d1d56580f8ec2dd05d",
-        "tag:github.com,2008:Grit::Commit/318f2385b435b490c6f8d28131096077f9ffb292"
+        "tag:github.com,2008:Grit::Commit/318f2385b435b490c6f8d28131096077f9ffb292",
+        "tag:github.com,2008:Grit::Commit/cbcdf8f7700cfe4c0ef9aeb232f64aeebe8a184c",
+        "tag:github.com,2008:Grit::Commit/1ee742c7a7a89ae88df262b37adda8d40eb17062",
+        "tag:github.com,2008:Grit::Commit/375407c7290dd99d305938983f37adffa9d44275",
+        "tag:github.com,2008:Grit::Commit/9a6239e018b7168b5106834da989886a178c3b6a",
+        "tag:github.com,2008:Grit::Commit/706ef898ea9ba14ca3d5b1dcafbd235976e4110b",
+        "tag:github.com,2008:Grit::Commit/8855694329fb63126788f724f157ac9c701b6142",
+        "tag:github.com,2008:Grit::Commit/00fe496716040e3cc6d5808ea9d5dcdb213d279c",
+        "tag:github.com,2008:Grit::Commit/c0d0ed36b1874276bbc428a20f4671ac004caa48",
+        "tag:github.com,2008:Grit::Commit/bfeea55a2e3b09212892aee625b6fee5b1dde9b3",
+        "tag:github.com,2008:Grit::Commit/612d5697029c85f60c6d3bab57f3299f2f3b1cbd",
+        "tag:github.com,2008:Grit::Commit/5e60203ea60380e645feb1a5ece810f5cd648dd0",
+        "tag:github.com,2008:Grit::Commit/df9e69e44e605f16324401c34c292f9eb311df42",
+        "tag:github.com,2008:Grit::Commit/09e2352cc2aac46ca687fa3a338c52d6ef213bc9",
+        "tag:github.com,2008:Grit::Commit/67ad32ab054eeb9c475db350ca79cba8c6fe5a70",
+        "tag:github.com,2008:Grit::Commit/29ccc1181e7a4f4a8f67a530997a6869fb486195",
+        "tag:github.com,2008:Grit::Commit/1a377b94ae6f7f0ec2771914a25dd949dd39ec5d",
+        "tag:github.com,2008:Grit::Commit/05455ffff14c907e389612ddfd0f48b9023104ab",
+        "tag:github.com,2008:Grit::Commit/2dfdce400346a8b6eca7167c4564f8a1ff706417",
+        "tag:github.com,2008:Grit::Commit/d18c2d2e3d54aaa36f43e56cf4e662666a09f84f",
+        "tag:github.com,2008:Grit::Commit/60a13ad555e08f886f1ec35a7e0bc1fd5d069056"
       ],
-      "etag": "\"49e058e162d1dc582cbccda0f71f3d51\"",
+      "etag": "\"e0ea5d1ee51d5881c07fac60618a8a48\"",
       "modified": null
     }
   },
-  "alerts_history": []
+  "alerts_history": [
+    {
+      "ts": "2026-08-03T14:20:34.970457+00:00",
+      "count": 1,
+      "alerts": [
+        {
+          "competitor": "awesome-mcp-servers",
+          "title": "Merge pull request #9770 from Christilut/add-sonovault-mcp",
+          "url": "https://github.com/punkpeye/awesome-mcp-servers/commit/2dfdce400346a8b6eca7167c4564f8a1ff706417",
+          "matched_keywords": [
+            "cross-platform"
+          ],
+          "risk": "LOW"
+        }
+      ]
+    }
+  ]
 }
