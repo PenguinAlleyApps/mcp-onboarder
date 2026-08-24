@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "last_scan_utc": "2026-08-17T12:26:15.342750+00:00",
+  "last_scan_utc": "2026-08-24T12:31:26.070700+00:00",
   "competitors": {
     "claudit-sec": {
       "last_seen_guids": [],
-      "etag": "W/\"90b02617b0e4083bca77cf68b7089633\"",
+      "etag": "W/\"1b5aa1bdcab802d7f4addae48ab5f1a3\"",
       "modified": null
     },
     "smithery-cli": {
@@ -41,13 +41,11 @@
     },
     "mcp-marketplace-cline": {
       "last_seen_guids": [],
-      "etag": "W/\"19d50a51c80127439d63b354b284f08e\"",
+      "etag": "W/\"e6dd56386f2c398829a25fd9d4cf0311\"",
       "modified": null
     },
     "awesome-mcp-servers": {
       "last_seen_guids": [
-        "tag:github.com,2008:Grit::Commit/39b5e990fe94734de271a2b13ec1513811da9cdd",
-        "tag:github.com,2008:Grit::Commit/70effb42e693c45a0776b80140ec302fee21a3fb",
         "tag:github.com,2008:Grit::Commit/b54b7f8e93bd85a63f5562f42355c19bb874aa91",
         "tag:github.com,2008:Grit::Commit/2079b1088ba81887b49a17702fe4f58090649758",
         "tag:github.com,2008:Grit::Commit/3cd24ab0136917ec8d8865575bf08d8861aef22b",
@@ -245,9 +243,11 @@
         "tag:github.com,2008:Grit::Commit/05455ffff14c907e389612ddfd0f48b9023104ab",
         "tag:github.com,2008:Grit::Commit/2dfdce400346a8b6eca7167c4564f8a1ff706417",
         "tag:github.com,2008:Grit::Commit/d18c2d2e3d54aaa36f43e56cf4e662666a09f84f",
-        "tag:github.com,2008:Grit::Commit/60a13ad555e08f886f1ec35a7e0bc1fd5d069056"
+        "tag:github.com,2008:Grit::Commit/60a13ad555e08f886f1ec35a7e0bc1fd5d069056",
+        "tag:github.com,2008:Grit::Commit/6c929cdf022f57cf954ab1b504cc266c0908373b",
+        "tag:github.com,2008:Grit::Commit/5cd9d40c6ec717fdbf275e02ced571d887773e2a"
       ],
-      "etag": "\"e0ea5d1ee51d5881c07fac60618a8a48\"",
+      "etag": "\"f978620c88e61e3693bb9e44a15e7e66\"",
       "modified": null
     }
   },
