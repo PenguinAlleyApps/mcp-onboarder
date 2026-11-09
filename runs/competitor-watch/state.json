@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "last_scan_utc": "2026-11-02T21:11:52.546797+00:00",
+  "last_scan_utc": "2026-11-09T21:47:25.043652+00:00",
   "competitors": {
     "claudit-sec": {
       "last_seen_guids": [],
-      "etag": "W/\"4c60d9f8cfe234430e549d886662b6e1\"",
+      "etag": "W/\"c393ae33addf7847e48f8a8eb6cd139b\"",
       "modified": null
     },
     "smithery-cli": {
@@ -41,14 +41,11 @@
     },
     "mcp-marketplace-cline": {
       "last_seen_guids": [],
-      "etag": "W/\"0f77680fe46b86e1624a66f50e12f191\"",
+      "etag": "W/\"0854b119e428589b90fced7fc44e1596\"",
       "modified": null
     },
     "awesome-mcp-servers": {
       "last_seen_guids": [
-        "tag:github.com,2008:Grit::Commit/d26995c2bbce996ee288c2cb98ddf38fedb2611c",
-        "tag:github.com,2008:Grit::Commit/5f0d6c8e664f0069f9e7623c4456f84469f89ce0",
-        "tag:github.com,2008:Grit::Commit/96d7d9e6d32d4262c5dc3d5bafdd08efcd3a7de5",
         "tag:github.com,2008:Grit::Commit/ecb1d782ce1ecbd499adc38fb77f642f323959b7",
         "tag:github.com,2008:Grit::Commit/d719d7373acc69c01c85f3cd41fe08b67b93f9f2",
         "tag:github.com,2008:Grit::Commit/f2737f14fa59caab7c8fd4cc3b4ac98f116f7f65",
@@ -245,9 +242,12 @@
         "tag:github.com,2008:Grit::Commit/61a4449d91d44d4cacb59f9df244183ee4266f40",
         "tag:github.com,2008:Grit::Commit/18af7132fc1bdccbc57514613c493817893ba30b",
         "tag:github.com,2008:Grit::Commit/29f2d490cc02468e7c9d87b0cf68d40d3041e7ef",
-        "tag:github.com,2008:Grit::Commit/5a4ea801a939cd85b56a7a1329243e5da5d0e13a"
+        "tag:github.com,2008:Grit::Commit/5a4ea801a939cd85b56a7a1329243e5da5d0e13a",
+        "tag:github.com,2008:Grit::Commit/f431a5cd95cebf038e587715635b9d1a0a4d0c02",
+        "tag:github.com,2008:Grit::Commit/ae36e1677e4f4b50ab3d348cd133e02f77e572c2",
+        "tag:github.com,2008:Grit::Commit/477c96b87479c62690b04b82ffd7ecacb07ccf94"
       ],
-      "etag": "\"b9c300dd2e33a12c6cc9656c4d825655\"",
+      "etag": "\"068416754d89fbbb7cddc5a32fb2dc35\"",
       "modified": null
     }
   },
