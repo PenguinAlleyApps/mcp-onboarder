@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "last_scan_utc": "2026-11-16T21:28:13.375884+00:00",
+  "last_scan_utc": "2026-11-23T23:08:26.195907+00:00",
   "competitors": {
     "claudit-sec": {
       "last_seen_guids": [],
-      "etag": "W/\"8d084906d392165264cfe8d9f1020b8c\"",
+      "etag": "W/\"8025871a8d82a6d9be3232a09c222771\"",
       "modified": null
     },
     "smithery-cli": {
@@ -41,31 +41,11 @@
     },
     "mcp-marketplace-cline": {
       "last_seen_guids": [],
-      "etag": "W/\"0af948207451b6fcbf5e3f07256ffc80\"",
+      "etag": "W/\"d24a52e011809912e1ac427f47d2a80d\"",
       "modified": null
     },
     "awesome-mcp-servers": {
       "last_seen_guids": [
-        "tag:github.com,2008:Grit::Commit/fd6bff487af23fb713161ca493b500db0c22a067",
-        "tag:github.com,2008:Grit::Commit/049b020fc007a9eef2d88bfdf6b8497fced6a1bc",
-        "tag:github.com,2008:Grit::Commit/e0ad7c4742f44f1e32e7f29f66f092c0a6131c8b",
-        "tag:github.com,2008:Grit::Commit/cdfc7d06c4bb1167ee1d8f83bdb5f5ed5d28ecab",
-        "tag:github.com,2008:Grit::Commit/8b3602b647f52a795d1888c1d6ba22e871c0c07d",
-        "tag:github.com,2008:Grit::Commit/ed02d06a415d32d0922404d1d56580f8ec2dd05d",
-        "tag:github.com,2008:Grit::Commit/318f2385b435b490c6f8d28131096077f9ffb292",
-        "tag:github.com,2008:Grit::Commit/cbcdf8f7700cfe4c0ef9aeb232f64aeebe8a184c",
-        "tag:github.com,2008:Grit::Commit/1ee742c7a7a89ae88df262b37adda8d40eb17062",
-        "tag:github.com,2008:Grit::Commit/375407c7290dd99d305938983f37adffa9d44275",
-        "tag:github.com,2008:Grit::Commit/9a6239e018b7168b5106834da989886a178c3b6a",
-        "tag:github.com,2008:Grit::Commit/706ef898ea9ba14ca3d5b1dcafbd235976e4110b",
-        "tag:github.com,2008:Grit::Commit/8855694329fb63126788f724f157ac9c701b6142",
-        "tag:github.com,2008:Grit::Commit/00fe496716040e3cc6d5808ea9d5dcdb213d279c",
-        "tag:github.com,2008:Grit::Commit/c0d0ed36b1874276bbc428a20f4671ac004caa48",
-        "tag:github.com,2008:Grit::Commit/bfeea55a2e3b09212892aee625b6fee5b1dde9b3",
-        "tag:github.com,2008:Grit::Commit/612d5697029c85f60c6d3bab57f3299f2f3b1cbd",
-        "tag:github.com,2008:Grit::Commit/5e60203ea60380e645feb1a5ece810f5cd648dd0",
-        "tag:github.com,2008:Grit::Commit/df9e69e44e605f16324401c34c292f9eb311df42",
-        "tag:github.com,2008:Grit::Commit/09e2352cc2aac46ca687fa3a338c52d6ef213bc9",
         "tag:github.com,2008:Grit::Commit/67ad32ab054eeb9c475db350ca79cba8c6fe5a70",
         "tag:github.com,2008:Grit::Commit/29ccc1181e7a4f4a8f67a530997a6869fb486195",
         "tag:github.com,2008:Grit::Commit/1a377b94ae6f7f0ec2771914a25dd949dd39ec5d",
@@ -245,9 +225,29 @@
         "tag:github.com,2008:Grit::Commit/246087da1a3cf53f9d9902d78791004b9302f9f9",
         "tag:github.com,2008:Grit::Commit/d19ee59b62d726da112426dda61f6348b887ec8f",
         "tag:github.com,2008:Grit::Commit/a19280d84261002f8d44285d2d54fa21c9e6558d",
-        "tag:github.com,2008:Grit::Commit/491f53dd8519a0db1dda394f5e5250fe23947de9"
+        "tag:github.com,2008:Grit::Commit/491f53dd8519a0db1dda394f5e5250fe23947de9",
+        "tag:github.com,2008:Grit::Commit/9522f9ff8c8ab9e103fa2a75d49ab4b66af22be3",
+        "tag:github.com,2008:Grit::Commit/3dce3a9d49360bd8f21c45b6fc35365bf2b093c8",
+        "tag:github.com,2008:Grit::Commit/9dbadb400a592289ec0f0dd97ee44632840c3c2b",
+        "tag:github.com,2008:Grit::Commit/4428f13717af2fb5227e3df316371f8d6c117f59",
+        "tag:github.com,2008:Grit::Commit/a51d93735d8e8d2f08acf71b4b34a1162f230237",
+        "tag:github.com,2008:Grit::Commit/feeb99c6a5e24183870d32ae4ad77c0bdfdded8f",
+        "tag:github.com,2008:Grit::Commit/5f45d5dce3e8b8d9df9301e446fb65e46b675873",
+        "tag:github.com,2008:Grit::Commit/e7416b463efdb31e956fabb1fbbe962b444c6956",
+        "tag:github.com,2008:Grit::Commit/5d0e5d77fca9426bcc2c5a04cec6f08cfb799c89",
+        "tag:github.com,2008:Grit::Commit/5fb385c3c56a004eacad6a21cb446205c787926b",
+        "tag:github.com,2008:Grit::Commit/50fe60e4fe128aaa83aa7072746cb396d6477e71",
+        "tag:github.com,2008:Grit::Commit/7bafd92b2c5c04b7ecaac454b6e66758bbaaad7d",
+        "tag:github.com,2008:Grit::Commit/ffaf57ca293d36651e4d214d648937b0eee398f8",
+        "tag:github.com,2008:Grit::Commit/3311a8ed89f1a5e186a2b2b6c823b1411be2b651",
+        "tag:github.com,2008:Grit::Commit/f03458c7e0f71ca87562a88be87dd306f3dde310",
+        "tag:github.com,2008:Grit::Commit/96fc17ac3900b7dfd0cd8f3f0c3e59986cfde344",
+        "tag:github.com,2008:Grit::Commit/0979edb3d40980edb189c6502835ead60ed377d7",
+        "tag:github.com,2008:Grit::Commit/9f32e65fb50bf47e7a7db985b0b749521575108d",
+        "tag:github.com,2008:Grit::Commit/eab24ecfdd7a0f7a7291aa74d7b9002f46eabc01",
+        "tag:github.com,2008:Grit::Commit/87b3a9d42c31d3d867d362e21ff371463a0f4869"
       ],
-      "etag": "\"7ac70910ee14a76320664672f1239caf\"",
+      "etag": "\"de4b75848ffba7d49638a97f4c8a56ad\"",
       "modified": null
     }
   },
